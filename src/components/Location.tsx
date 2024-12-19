@@ -3,10 +3,9 @@ import { MapPin, Clock } from 'lucide-react';
 
 export default function Location() {
   const schedule = [
-    { day: "Mardi - Jeudi", hours: "11h30 - 21h00" },
+    { day: "Lundi - Jeudi", hours: "11h30 - 21h00" },
     { day: "Vendredi - Samedi", hours: "11h30 - 22h00" },
-    { day: "Dimanche", hours: "12h00 - 20h00" },
-    { day: "Lundi", hours: "Fermé" }
+    { day: "Dimanche", hours: "12h00 - 20h00" }
   ];
 
   return (
